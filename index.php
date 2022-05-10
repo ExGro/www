@@ -48,6 +48,31 @@
 			<span>Поиск</span>
 			<i class="fa-solid fa-magnifying-glass"></i>
 		</div>
+		<div id="mobileMenu">
+			<a href="">IT новости</a><br>
+			<a href="">Видео курсы</a><br>
+			<a href="">Сайты на заказ</a><br>
+			<a href="">Форум</a><br>
+			<a href="">IT задачи</a>
+			<hr>
+			<a href="">Регистрация</a>
+			<a href="">Войти</a>
+		</div>
 	</nav>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script>
+		$('#menuShow').click (function () {
+			if ($('#mobileMenu').is(':visible'))
+				$('#mobileMenu').hide ();
+			else
+				$('#mobileMenu').show ();
+		});
+
+		window.onresize = function (event) {
+			$('#mobileMenu').hide ();
+		}; 
+	</script>
 </body>
 </html>

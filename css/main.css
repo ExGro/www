@@ -195,13 +195,49 @@ nav {
 	border-bottom: 2px solid #ebebeb;
 }
 
-nav>a {
+nav>div#hideMenu>a {
 	color: #323232;
 	font-size: 1.5em;
 	margin-left: 5%;
 }
 
-nav>a:hover {
+nav>div#hideMenu>a:hover {
+	color: #868686;
+}
+
+#hideMenu {
+	display: inline;
+}
+
+#menuShow {
+	display: inline;
+	font-size: 1.4em;
+	margin-left: 20px;
+	float: left;
+	margin-top: 4px;
+	cursor: pointer;
+}
+
+@media (min-width 785px) {
+	#menuShow {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+#mobileMenu {
+	display: none;
+	width: 100%;
+	float: left;
+}
+
+nav>div#mobileMenu>a {
+	color: #323232;
+	font-size: 1.5em;
+	margin-left: 5%;
+}
+
+nav>div#mobileMenu>a:hover {
 	color: #868686;
 }
 
