@@ -163,17 +163,17 @@ header>div#logo>a>span {
 	color: white;
 }
 
-#reg_auth>a:hover>div#btn {
+.btn:hover {
 	border-bottom: 2px solid rgba(217, 91, 72, 1);
 	margin-top: 7px;
 }
 
-#reg_auth>a:active>div#btn {
+.btn:active {
 	border-bottom: 0px;
 	margin-top: 9px;
 }
 
-#reg_auth>a>div#btn {
+.btn {
 	float: right;
 	margin-right: 3%;
 	margin-top: 5px;
@@ -183,6 +183,8 @@ header>div#logo>a>span {
 	background-color: rgba(217, 91, 72, 1);
 	text-shadow: #454545 0 0 2px;
 	border-bottom: 4px solid rgba(217, 91, 72, 1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
 }
 
 /* Меню сайта */
@@ -195,14 +197,37 @@ nav {
 	border-bottom: 2px solid #ebebeb;
 }
 
-nav>div#hideMenu>a {
+nav a {
 	color: #323232;
 	font-size: 1.5em;
 	margin-left: 5%;
 }
 
-nav>div#hideMenu>a:hover {
-	color: #868686;
+nav a:hover {
+	color: #e8622d;
+}
+
+nav a:last-child {
+	margin-right: 15px;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
+	opacity: 0.97;
+	padding: 4px 0.3%;
+}
+
+.fixed:hover {
+	opacity: 1;
+}
+
+.fixed a {
+	font-size: 1.3em;
+}
+
+.fixed #search {
+	font-size: 1.2em;
 }
 
 #hideMenu {
@@ -218,8 +243,15 @@ nav>div#hideMenu>a:hover {
 	cursor: pointer;
 }
 
-@media (min-width 785px) {
+@media (min-width: 785px) {
 	#menuShow {
+		display: none;
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 784px) {
+	#hideMenu {
 		display: none;
 		visibility: hidden;
 	}
@@ -229,16 +261,6 @@ nav>div#hideMenu>a:hover {
 	display: none;
 	width: 100%;
 	float: left;
-}
-
-nav>div#mobileMenu>a {
-	color: #323232;
-	font-size: 1.5em;
-	margin-left: 5%;
-}
-
-nav>div#mobileMenu>a:hover {
-	color: #868686;
 }
 
 #search {

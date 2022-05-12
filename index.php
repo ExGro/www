@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>www - сайт для разработчиков</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main_page.css" charset="utf-8">
 	<meta name="description" content="Информационно-развлекательный портал для программимтов! Обучающие курсы, новости в сфере IT и многое другое">
 	<meta name="keywords" content="www, it, курсы, новости, уроки">
 	<link rel="shortcut icon" type="image/x-icon" href="img/favico.ico">
@@ -24,12 +25,12 @@
 		</div>
 		<div id="reg_auth">
 			<a href="" title="Войти в кабинет пользователя">
-				<div id="btn">
+				<div class="btn">
 					Войти
 				</div>
 			</a>
 			<a href="" title="Зарегистрироваться на сайте">
-				<div id="btn">
+				<div class="btn">
 					Регистрация
 				</div>
 			</a>
@@ -60,6 +61,30 @@
 		</div>
 	</nav>
 
+	<div id="main">
+		<div id="news">
+			<h2 class="heading">IT новости</h2>
+			<div style="clear: both;"><br></div>
+			<!-- Статья -->
+			<div class="article">
+				<img src="https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png" alt="test" title="test">
+				<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet aliquam turpis.</span>
+			</div>
+
+			<a href="" title="Посмотреть больше статей">
+				<div class="btn">
+					Посмотреть больше
+				</div>
+			</a>
+		
+		</div>
+	</div>
+	<aside>
+		<div id="courses">
+			<h2 class="heading">Видеокурсы</h2>			
+		</div>
+	</aside>
+
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script>
@@ -68,6 +93,15 @@
 				$('#mobileMenu').hide ();
 			else
 				$('#mobileMenu').show ();
+		});
+
+		$(document).scroll (function () {
+			if ($(document).width () > 785) {
+				if ($(document).scrollTop () >= $('header').height () + 20 )
+					$('nav').addClass ('fixed');
+				else
+					$('nav').removeClass ('fixed');
+			}
 		});
 
 		window.onresize = function (event) {
