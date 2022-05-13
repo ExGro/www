@@ -1,15 +1,54 @@
 #main {
-	width: 60%;
 	float: left;
 	margin-top: 20px;
-	margin-left: 3%;
 }
 
 aside {
 	float: left;
-	width: 30%;
-	margin-left: 2%;
 	margin-top: 20px;
+}
+
+#course {
+	float: left;
+	width: 90%;
+}
+
+.course {
+	width: 100%;
+	margin-bottom: 10px;
+	float: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.2em;
+	color: #646464;
+}
+
+.course>img {
+	border: 2px solid #dfdfdf;
+	border-radius: 5px;
+	width: 35%;
+	float: left;
+	margin-right: 10px;
+}
+
+.course>span {
+	float: right;
+	font-weight: bold;
+	color: rgba(236, 101, 80, 1);
+}
+
+#course>a>div.btn {
+	float: left;
+	margin-left: 30%;
+}
+
+#one_course {
+	float: left;
+	margin-top: 10px;
+}
+
+#one_course>img {
+	width: 80%;
+	float: left;
 }
 
 .heading {
@@ -24,6 +63,10 @@ aside {
 
 .heading:first-letter {
 	color: #db6e6e;
+}
+
+#news {
+	float: left;
 }
 
 .article {
@@ -58,4 +101,33 @@ aside {
 	margin-botton: 20px;
 	float: left;
 	margin-left: 30%;
+}
+
+@media (min-width: 1081px) {
+	#main {
+		width: 60%;
+		margin-left: 3%;
+	}
+	aside {
+		width: 30%;
+		margin-left: 2%;
+	}
+	#news {
+		margin-left: 10%;
+		width: 90%;
+	}
+}
+
+@media (max-width: 1080) and (min-width: 744px) {
+	#main {
+		width: 65%;
+		margin-left: 2%;
+	}
+	aside {
+		width: 32%;
+	}
+	#news {
+		margin-left: 4%;
+		width: 96%;
+	}
 }
