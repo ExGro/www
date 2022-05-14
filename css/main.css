@@ -243,14 +243,14 @@ nav a:last-child {
 	cursor: pointer;
 }
 
-@media (min-width: 785px) {
+@media (min-width: 927px) {
 	#menuShow {
 		display: none;
 		visibility: hidden;
 	}
 }
 
-@media (max-width: 784px) {
+@media (max-width: 926px) {
 	#hideMenu {
 		display: none;
 		visibility: hidden;

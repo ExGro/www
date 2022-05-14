@@ -95,8 +95,8 @@
 					echo '
 				<div class="course">
 					<img src="https://sun9-27.userapi.com/impf/anGMnbNC3kc1qzWAAkk8e3A8yUJMF4sKP2Qubg/W3bMnCgjSTc.jpg?size=795x265&quality=95&crop=0,219,1920,640&sign=3047b3000cb28b0e18ff29c64d9b43bf&type=cover_group" alt="Test" title="Test">
-					Создание <em>IOS</em> игры на Unity
-					<span>25 уроков</span>
+					<span class="txt1">Создание <em>IOS</em> игры на Unity</span>
+					<span class="txt">25 уроков</span>
 				</div>
 				<div style="clear: both"><br></div>
 					';

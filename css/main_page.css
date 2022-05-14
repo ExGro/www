@@ -30,7 +30,7 @@ aside {
 	margin-right: 10px;
 }
 
-.course>span {
+.course>span.txt {
 	float: right;
 	font-weight: bold;
 	color: rgba(236, 101, 80, 1);
@@ -103,7 +103,7 @@ aside {
 	margin-left: 30%;
 }
 
-@media (min-width: 1081px) {
+@media (min-width: 1386px) {
 	#main {
 		width: 60%;
 		margin-left: 3%;
@@ -112,52 +112,130 @@ aside {
 		width: 30%;
 		margin-left: 2%;
 	}
+	#one_course > img {
+		width: 90%;
+	}
+	#course > a > div.btn {
+		float: right;
+		margin-right: 0%;
+	}
 	#news {
 		margin-left: 10%;
 		width: 90%;
 	}
+	#news > a > .btn {
+		float: right;
+		margin-right: 10%;
+	}
 }
 
-@media (max-width: 1080px) and (min-width: 914px) {
+@media (max-width: 1385px) and (min-width: 929px) {
 	#main {
-		width: 65%;
-		margin-left: 2%;
+		width: 70%;
+		margin-left: 15%;
 	}
 	aside {
-		width: 32%;
+		width: 67.5%;
+		margin-left: 17.5%;
+	}
+		
+	#one_course > img {
+		width: 90%;
+	}
+	#course > a > div.btn {
+		float: right;
+		margin-right: 0%;
 	}
 	#news {
 		margin-left: 4%;
 		width: 96%;
 	}
+	#news > a > .btn {
+		float: right;
+		margin-right: 10%;
+	}
 }
 
-@media (max-width: 913px) and (min-width: 677px) {
+@media (max-width: 928px) and (min-width: 671px) {
+	#main {
+		width: 95%;
+		margin-left: 7%;
+	}
+	#news > a > .btn {
+		float: right;
+		margin-right: 10%;
+	}
+	aside {
+		margin-left: 10%;
+		width: 92%;
+	}
+	#course > a > div.btn {
+		float: right;
+		margin-right: 0%;
+	}
+	#news {
+		margin-left: 4%;
+		width: 96%;
+	}
+	#one_course > img {
+		width: 90%;
+	}
+}
+
+@media (max-width: 670px) {
 	#main {
 		width: 90%;
 		margin-left: 7%;
 	}
 	aside {
-		width: 50%;
 		margin-left: 10%;
 	}
 	#news {
 		margin-left: 4%;
 		width: 96%;
+	}
+	#one_course > img {
+		width: 90%;
+	}
+	#course > a > div.btn {
+		float: right;
+		margin-right: auto;
+	}
+	#news > a > .btn {
+		float: right;
+		margin-right: 7%;
+	}
+	.article {
+		width: 93%;
 	}
 }
 
-@media (max-width: 676px) and (min-width: 200px) {
-	#main {
-		width: 90%;
-		margin-left: 7%;
+@media (min-width: 1890px) {
+	.course>span.txt1 {
+		float: right;
 	}
-	aside {
+	.course>img {
 		width: 50%;
-		margin-left: 10%;
 	}
-	#news {
-		margin-left: 4%;
-		width: 96%;
+	.course>span.txt {
+		margin-right: %;
+	}
+}
+
+@media (max-width: 1889px) and (min-width: 1502px) {
+	.course>img {
+		width: 40%;
+	}
+	.course>span.txt1 {
+		float: right;
+	}
+}
+
+@media (max-width: 1501px) and (min-width: 1386px) {
+	.course>img {
+		width: 35%;
+	}
+	.course>span.txt1 {
+		float: right;
 	}
 }
