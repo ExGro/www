@@ -118,13 +118,43 @@ aside {
 	}
 }
 
-@media (max-width: 1080) and (min-width: 744px) {
+@media (max-width: 1080px) and (min-width: 914px) {
 	#main {
 		width: 65%;
 		margin-left: 2%;
 	}
 	aside {
 		width: 32%;
+	}
+	#news {
+		margin-left: 4%;
+		width: 96%;
+	}
+}
+
+@media (max-width: 913px) and (min-width: 677px) {
+	#main {
+		width: 90%;
+		margin-left: 7%;
+	}
+	aside {
+		width: 50%;
+		margin-left: 10%;
+	}
+	#news {
+		margin-left: 4%;
+		width: 96%;
+	}
+}
+
+@media (max-width: 676px) and (min-width: 200px) {
+	#main {
+		width: 90%;
+		margin-left: 7%;
+	}
+	aside {
+		width: 50%;
+		margin-left: 10%;
 	}
 	#news {
 		margin-left: 4%;
