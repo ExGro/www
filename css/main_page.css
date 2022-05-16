@@ -182,7 +182,7 @@ aside {
 	}
 }
 
-@media (max-width: 670px) {
+@media (max-width: 670px) and (min-width: 630px) {
 	#main {
 		width: 90%;
 		margin-left: 7%;
@@ -207,6 +207,105 @@ aside {
 	}
 	.article {
 		width: 93%;
+	}
+}
+
+@media (max-width: 629px) and (min-width: 501px) {
+	#main {
+		width: 90%;
+		margin-left: 7%;
+	}
+	aside {
+		margin-left: 10%;
+	}
+	#news {
+		margin-left: 4%;
+		width: 96%;
+	}
+	#one_course > img {
+		width: 90%;
+	}
+	#course > a > div.btn {
+		float: right;
+		margin-right: auto;
+	}
+	#news > a > .btn {
+		float: right;
+		margin-right: 7%;
+	}
+	.article {
+		width: 93%;
+	}
+	.course>span.txt1 {
+		float: right;
+	}
+	.course>img {
+		width: 40%;
+	}
+}
+
+@media (max-width: 500px) and (min-width: 390px) {
+	#main {
+		width: 90%;
+		margin-left: 7%;
+	}
+	aside {
+		margin-left: 10%;
+	}
+	#news {
+		margin-left: 4%;
+		width: 96%;
+	}
+	#one_course > img {
+		width: 90%;
+	}
+	#course > a > div.btn {
+		float: right;
+		margin-right: auto;
+	}
+	#news > a > .btn {
+		float: right;
+		margin-right: 7%;
+	}
+	.article {
+		width: 93%;
+	}
+	.course>img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 389px) {
+	#main {
+		width: 90%;
+		margin-left: 7%;
+	}
+	aside {
+		margin-left: 10%;
+	}
+	#news {
+		margin-left: 4%;
+		width: 96%;
+	}
+	#one_course > img {
+		width: 90%;
+	}
+	#course > a > div.btn {
+		float: right;
+		margin-right: auto;
+	}
+	#news > a > .btn {
+		float: right;
+		margin-right: 7%;
+	}
+	.article {
+		width: 93%;
+	}
+	.course>img {
+		width: 100%;
+	}
+	.course>span.txt1 {
+		float: right;
 	}
 }
 
@@ -238,4 +337,22 @@ aside {
 	.course>span.txt1 {
 		float: right;
 	}
+}
+
+/* Нижняя часть сайта */
+
+#subscribe {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#subscribe>span {
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
+	color: 434343;
+	margin-left: 9%;
+}
+
+#vk_groups {	
+	margin: auto;
 }
