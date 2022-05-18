@@ -132,6 +132,21 @@
 				</script>
 			</div>
 
+			<div id="sub_to_project">
+				<span class="heading">Подписаться на проект</span>
+				<div style="clear: both"><br></div>
+				<p>Чтобы получить доступ ко всем функуиям сайта оформите подписку на проект</p>
+				<a href="" title="Посмотреть информацию о подписке на проект">
+					<div class="btn">
+						Узнать детальнее о подписке
+					</div>
+				</a>
+				<div style="clear: both"><br></div>
+				<h2 class="heading">Создание онлайн магазина</h2>
+				<div style="clear: both"><br></div>
+				<img src=https://st2.depositphotos.com/1031174/10987/i/450/depositphotos_109878118-stock-photo-time-flies-idea.jpg alt="Foto" title="foto">
+			</div>
+
 		</div>
 	</div>
 
