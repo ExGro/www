@@ -344,11 +344,13 @@ aside {
 #subscribe {
 	text-align: left;
 	margin-bottom: 20px;
+	width: 50%;
+	float: left;
 }
 
 #subscribe>span {
 	font-family: 'Roboto Slab', serif;
-	font-size: 2em;
+	font-size: 1.5em;
 	color: 434343;
 	margin-left: 9%;
 }
@@ -359,23 +361,14 @@ aside {
 
 #sub_to_project {
 	float: left;
+	text-align: left;
 	margin-bottom: 20px;
-}
-
-#sub_to_project>p {
-	width: 100%;
-	color: #333;
-	font-family: 'Roboto Slab', serif;
-	font-size: 1.1em;
+	width: 50%
 }
 
 @media (max-width: 1385px) and (min-width: 929px) {
 	#vk_groups {
 		margin-left: 17.5%;
-	}
-	#subscribe>span {
-		font-size: 1.7em;
-		margin-left: 17.3%
 	}
 }
 
@@ -383,28 +376,16 @@ aside {
 	#vk_groups {
 		margin-left: 10%;
 	}
-	#subscribe>span {
-		font-size: 1.7em;
-		margin-left: 9.7%
-	}
 }
 
 @media (max-width: 670px) and (min-width: 630px) {
 	#vk_groups {
 		margin-left: 10%;
 	}
-	#subscribe>span {
-		font-size: 1.5em;
-		margin-left: 9.7%
-	}
 }
 
 @media (max-width: 629px) {
 	#vk_groups {
-		visibility: hidden;
-		display: none;
-	}
-	#subscribe>span {
 		visibility: hidden;
 		display: none;
 	}

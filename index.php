@@ -117,7 +117,7 @@
 				</div>
 			</aside>
 			<div style="clear: both"><br></div>
-
+		<bottom_line>
 			<div id="subscribe">
 				<span>Подпишитесь чтобы быть в курсе всех новостей</span>
 				<div style="clear: both"><br></div>
@@ -128,10 +128,10 @@
 				<!-- VK Widget -->
 				<div id="vk_groups"></div>
 				<script type="text/javascript">
-				VK.Widgets.Group("vk_groups", {mode: 4, width: "500", height: "400"}, -17330134);
+				VK.Widgets.Group("vk_groups", {mode: 4, width: "300", height: "400"}, -17330134);
 				</script>
 			</div>
-
+		
 			<div id="sub_to_project">
 				<span class="heading">Подписаться на проект</span>
 				<div style="clear: both"><br></div>
@@ -147,7 +147,8 @@
 				<img src=https://st2.depositphotos.com/1031174/10987/i/450/depositphotos_109878118-stock-photo-time-flies-idea.jpg alt="Foto" title="foto">
 			</div>
 
-		</div>
+		</bottom_line>
+		</div>	
 	</div>
 
 	<!-- jQuery -->
